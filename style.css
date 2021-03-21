@@ -1,0 +1,131 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    color: white;
+    background-color: #F0F0F0;
+    font-family: "Montserrat";
+    font-size: 20px;
+    margin: 0;
+    width: 100%;
+}
+
+#navbar {
+    background-color: #BE3144;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+}
+
+#navbar > a {
+    color: #FFFFFF;
+    display: block;
+    float: right;
+    padding: 15px 30px 15px 30px;
+    text-decoration: none;
+}
+
+#navbar > a:hover {
+    background-color: #922534;
+    font-weight: bold;
+}
+
+#welcome-section {
+    align-items: center;
+    background-color: #2B2C2F;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    overflow: hidden;
+}
+
+#welcome-section > h1 {
+    font-size: 75px;
+    margin: 0;
+}
+
+#welcome-section > p {
+    color: #BE3144;
+    font-family: "Open Sans";
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 100;
+    margin: 0;
+}
+
+#projects {
+    background-color: #45567D;
+    font-size: 40px;
+    font-weight: bold;
+    height: fit-content;
+    padding-top: 50px;
+    text-align: center;
+}
+
+#projects #list {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+
+.project-tile {
+    background-color: #FFFFFF;
+    color: red;
+    height: 300px;
+    margin: 10px;
+    width: 300px;
+}
+
+.project-tile:hover {
+    transform: scale(1.1, 1.1);
+    transition-duration: 0.5s;
+}
+
+#information {
+    background-color: #2B2C2F;
+    height: fit-content;
+    padding: 30px;
+    text-align: center;
+}
+
+#information > h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+#contact {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#contact .contact-item {
+    color: #F0F0F0;
+    font-size: 25px;
+    margin: 0 40px 0 40px;
+    text-shadow: 2px 2px 8px #000000;
+    text-decoration: none;
+}
+
+#contact .contact-item:hover {
+    transform: translateY(5px);
+    transition-duration: 0.3s;
+}
+
+hr {
+    margin: 0;
+}
+
+#footer {
+    background-color: #2B2C2F;
+    height: fit-content;
+    padding: 30px;
+    text-align: center;
+}
