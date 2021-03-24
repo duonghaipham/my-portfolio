@@ -78,6 +78,7 @@ body {
     color: red;
     height: 300px;
     margin: 10px;
+    text-decoration: none;
     width: 300px;
 }
 
@@ -121,6 +122,28 @@ body {
 
 hr {
     margin: 0;
+}
+
+#information #contact a::before {
+    display: inline;
+    font-family: "FontAwesome";
+    padding-right: 5px;
+}
+
+#information #contact #facebook::before {
+    content: "\f082";
+}
+
+#information #contact #github::before {
+    content: "\f092"
+}
+
+#information #contact #twitter::before {
+    content: "\f081";
+}
+
+#information #contact #mail::before {
+    content: "\f0e0";
 }
 
 #footer {
