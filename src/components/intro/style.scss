@@ -1,0 +1,23 @@
+#welcome-section {
+  align-items: center;
+  background-color: #2B2C2F;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  overflow: hidden;
+
+  > h1 {
+    font-size: 75px;
+    margin: 0;
+  }
+
+  > p {
+    color: #BE3144;
+    font-family: "Open Sans";
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 100;
+    margin: 0;
+  }
+}

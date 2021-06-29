@@ -1,10 +1,12 @@
-const Welcome = () => {
+import './style.scss';
+
+const Intro = () => {
     return (
         <section id="welcome-section">
-            <h1>Hello! I am Tyler</h1>
+            <h1>Hello! I'm Tyler</h1>
             <p>...a programmer</p>
         </section>
     );
 };
 
-export default Welcome;
+export default Intro;

@@ -1,0 +1,54 @@
+#information {
+  background-color: #2B2C2F;
+  height: fit-content;
+  padding: 30px;
+  text-align: center;
+
+  > h1 {
+    font-size: 50px;
+    margin: 0;
+  }
+
+  #contact {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    a::before {
+      display: inline;
+      //font-family: "FontAwesome";
+      padding-right: 5px;
+    }
+
+    .contact-item {
+      color: #F0F0F0;
+      font-size: 25px;
+      margin: 0 40px 0 40px;
+      text-shadow: 2px 2px 8px #000000;
+      text-decoration: none;
+
+      &:hover {
+        transform: translateY(5px);
+        transition-duration: 0.3s;
+      }
+    }
+
+    #facebook::before {
+      content: "\f082";
+    }
+
+    #github::before {
+      content: "\f092";
+    }
+
+    #twitter::before {
+      content: "\f081";
+    }
+
+    #mail::before {
+      content: "\f0e0";
+    }
+  }
+}

@@ -1,3 +1,5 @@
+import './style.scss';
+
 const Project = () => {
     return (
         <section id="projects">
