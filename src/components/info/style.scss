@@ -35,20 +35,32 @@
       }
     }
 
-    #facebook::before {
-      content: "\f082";
+    #facebook {
+      i::before {
+        content: "\f082";
+        margin-right: 0.5rem;
+      }
     }
 
-    #github::before {
-      content: "\f092";
+    #github {
+      i::before {
+        content: "\f092";
+        margin-right: 0.5rem;
+      }
     }
 
-    #twitter::before {
-      content: "\f081";
+    #twitter {
+      i::before {
+        content: "\f081";
+        margin-right: 0.5rem;
+      }
     }
 
-    #mail::before {
-      content: "\f0e0";
+    #mail {
+      i::before {
+        content: "\f0e0";
+        margin-right: 0.5rem;
+      }
     }
   }
 }

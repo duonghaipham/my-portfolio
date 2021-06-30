@@ -1,9 +1,10 @@
 import './style.scss';
 
 const Footer = () => {
+    const date = new Date();
     return (
         <footer id="footer">
-            Created by Tyler. Referenced from freeCodeCamp.
+            {date.getFullYear()} Designed by Tyler.
         </footer>
     );
 };

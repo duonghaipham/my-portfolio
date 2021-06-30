@@ -1,19 +1,91 @@
 #navbar {
-  background-color: #BE3144;
-  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
   position: fixed;
   width: 100%;
+  padding: 1rem;
+  box-sizing: border-box;
+  background-color: #fff;
+  box-shadow: 0 5px 5px 0 rgba(0,0,0,0.05);
+  -webkit-box-shadow: 0 5px 5px 0 rgba(0,0,0,0.05);
+  -moz-box-shadow: 0 5px 5px 0 rgba(0,0,0,0.05);
 
   > a {
-    color: #FFFFFF;
-    display: block;
-    float: right;
-    padding: 15px 30px 15px 30px;
-    text-decoration: none;
+    margin: 0 1.5rem;
+    color: #000;
+    text-decoration: underline rgba(0, 0, 0, 0) 3px;
+    text-underline-offset: 5px;
+    transition: text-decoration-color 400ms;
 
     &:hover {
-      background-color: #922534;
-      font-weight: bold;
+      text-decoration-color: rgba(255, 255, 0, 1);
+    }
+  }
+
+  #home::before {
+    content: "Home";
+  }
+
+  #intro::before {
+    content: "About";
+  }
+
+  #info:before {
+    content: "Contact";
+  }
+
+  #work::before {
+    content: "Work";
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  #navbar {
+    justify-content: space-between;
+
+    #home {
+      &::before {
+        content: "";
+      }
+
+      i::before {
+        content: "\e88a";
+        opacity: 0.6;
+      }
+    }
+
+    #intro {
+      &::before {
+        content: "";
+      }
+
+      i::before {
+        content: "\e88e";
+        opacity: 0.6;
+      }
+    }
+
+    #work {
+      &::before {
+        content: "";
+      }
+
+      i::before {
+        content: "\e8f9";
+        opacity: 0.6;
+      }
+    }
+
+    #info {
+      &::before {
+        content: "";
+      }
+
+      i::before {
+        content: "\e80d";
+        opacity: 0.6;
+      }
     }
   }
 }

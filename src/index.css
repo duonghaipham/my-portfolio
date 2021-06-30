@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Loew Heavy';
+  src: url(./assets/fonts/Loew-Heavy.otf);
+}
+
 html {
   scroll-behavior: smooth;
 }
