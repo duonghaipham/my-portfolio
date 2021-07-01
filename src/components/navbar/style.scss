@@ -1,15 +1,17 @@
 #navbar {
+  z-index: 1001;
   display: flex;
   align-items: center;
   justify-content: flex-end;
   position: fixed;
   width: 100%;
-  padding: 1rem;
+  padding: 0.75rem 1rem;
   box-sizing: border-box;
   background-color: #fff;
   box-shadow: 0 5px 5px 0 rgba(0,0,0,0.05);
   -webkit-box-shadow: 0 5px 5px 0 rgba(0,0,0,0.05);
   -moz-box-shadow: 0 5px 5px 0 rgba(0,0,0,0.05);
+  opacity: 0.95;
 
   > a {
     margin: 0 1.5rem;
@@ -19,7 +21,8 @@
     transition: text-decoration-color 400ms;
 
     &:hover {
-      text-decoration-color: rgba(255, 255, 0, 1);
+      color: #61a4df;
+      text-decoration-color: rgba(97, 164, 223, 1);
     }
   }
 
