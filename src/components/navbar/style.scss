@@ -26,15 +26,15 @@
     }
   }
 
-  #home::before {
+  #home-link::before {
     content: "Home";
   }
 
-  #intro::before {
+  #about-link::before {
     content: "About";
   }
 
-  #info:before {
+  #info-link:before {
     content: "Contact";
   }
 
@@ -47,7 +47,7 @@
   #navbar {
     justify-content: space-between;
 
-    #home {
+    #home-link {
       &::before {
         content: "";
       }
@@ -58,7 +58,7 @@
       }
     }
 
-    #intro {
+    #about-link {
       &::before {
         content: "";
       }
@@ -80,7 +80,7 @@
       }
     }
 
-    #info {
+    #info-link {
       &::before {
         content: "";
       }

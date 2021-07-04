@@ -1,9 +1,9 @@
 import './style.scss';
 import avt from '../../assets/img/avt.jpg';
 
-const Intro = () => {
+const Home = () => {
     return (
-        <section id="welcome-section">
+        <section id="home">
             <div id="text">
                 <h1>Hello! I am Tyler</h1>
                 <p>a versatile developer</p>
@@ -20,4 +20,4 @@ const Intro = () => {
     );
 };
 
-export default Intro;
+export default Home;

@@ -1,4 +1,4 @@
-#welcome-section {
+#home {
   position: relative;
   overflow: hidden;
   display: flex;
@@ -17,7 +17,7 @@
 
     h1 {
       margin: 0 0 1rem 0;
-      font-family: "Loew Heavy";
+      font-family: "Samsung Sharp Sans Bold", "Loew Heavy";
       font-size: 75px;
       line-height: 1.15;
     }
@@ -44,8 +44,8 @@
       bottom: 0;
       width: 100%;
       height: 100px;
-      background-image: url("../../assets/img/wave.png");
-      background-size: 1000px 100px;
+      background-image: url("../../assets/svg/wave.svg");
+      background-size: 1000px 110px;
     }
 
     .wave1 {
@@ -83,7 +83,7 @@
 }
 
 @media only screen and (max-width: 720px) {
-  #welcome-section {
+  #home {
     flex-direction: column;
     justify-content: center;
 

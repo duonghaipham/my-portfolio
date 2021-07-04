@@ -3,6 +3,11 @@
   src: url(./assets/fonts/Loew-Heavy.otf);
 }
 
+@font-face {
+  font-family: 'Samsung Sharp Sans Bold';
+  src: url(./assets/fonts/Samsung-Sharp-Sans-Bold.otf);
+}
+
 html {
   scroll-behavior: smooth;
 }

@@ -1,15 +1,17 @@
 import './App.scss';
 import Navbar from './navbar';
-import Intro from './intro';
+import Home from './home';
 import Project from './project';
 import Info from './info';
 import Footer from './footer';
+import About from "./about";
 
 function App() {
   return (
     <>
     <Navbar />
-    <Intro />
+    <Home />
+    <About />
     <Project />
     <Info />
     <hr />
