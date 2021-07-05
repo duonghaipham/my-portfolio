@@ -9,10 +9,7 @@ const Navbar = () => {
             <a href="#about" id="about-link">
                 <i className="material-icons"></i>
             </a>
-            <a href="#work" id="work">
-                <i className="material-icons"></i>
-            </a>
-            <a href="#info" id="info-link">
+            <a href="#information" id="info-link">
                 <i className="material-icons"></i>
             </a>
         </nav>

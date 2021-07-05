@@ -1,65 +1,98 @@
 #information {
-  background-color: #2B2C2F;
-  height: fit-content;
-  padding: 30px;
-  text-align: center;
+  background-color: #2b2c2f;
+  padding: 2rem 1rem;
 
-  > h1 {
-    font-size: 50px;
+  * {
+    box-sizing: border-box;
     margin: 0;
+    padding: 0;
+    overflow: hidden;
   }
 
-  #contact {
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
+  #information-container {
+    margin: 0 auto;
+    max-width: 960px;
 
-    a::before {
-      display: inline;
-      //font-family: "FontAwesome";
-      padding-right: 5px;
+    h1 {
+      font-size: 2.5rem;
+      font-family: "Loew Heavy", sans-serif;
     }
 
-    .contact-item {
-      color: #F0F0F0;
-      font-size: 25px;
-      margin: 0 40px 0 40px;
-      text-shadow: 2px 2px 8px #000000;
-      text-decoration: none;
+    #places {
+      margin-top: 2rem;
+      font-size: 1.5rem;
+      letter-spacing: 2px;
+    }
 
-      &:hover {
-        transform: translateY(5px);
-        transition-duration: 0.3s;
+    #contact {
+      margin: 1.5rem 0;
+
+      a::before {
+        display: inline;
+        padding-right: 5px;
+      }
+
+      .contact-item {
+        color: #40e0d0;
+        font-size: 3rem;
+        text-shadow: 2px 2px 8px #000000;
+        text-decoration: none;
+
+        &:hover {
+          color: #ff1493;
+        }
+      }
+
+      #facebook {
+        i::before {
+          content: "\f09a";
+        }
+      }
+
+      #instagram {
+        margin-left: 3rem;
+        i::before {
+          content: "\f16d";
+        }
+      }
+
+      #github {
+        margin-left: 3rem;
+        i::before {
+          content: "\f09b";
+        }
+      }
+
+      #twitter {
+        margin-left: 3rem;
+        i::before {
+          content: "\f099";
+        }
       }
     }
 
-    #facebook {
-      i::before {
-        content: "\f082";
-        margin-right: 0.5rem;
+    #email {
+      font-size: 1.5rem;
+
+      a {
+        color: #fff;
+        text-decoration: underline #40e0d0 3px;
+        letter-spacing: 2px;
+
+        &:hover {
+          color: #ff1493;
+        }
       }
     }
+  }
+}
 
-    #github {
-      i::before {
-        content: "\f092";
-        margin-right: 0.5rem;
-      }
-    }
-
-    #twitter {
-      i::before {
-        content: "\f081";
-        margin-right: 0.5rem;
-      }
-    }
-
-    #mail {
-      i::before {
-        content: "\f0e0";
-        margin-right: 0.5rem;
+@media only screen and (max-width: 720px) {
+  #information {
+    #information-container {
+      #places,
+      #email {
+        font-size: 1.25rem;
       }
     }
   }

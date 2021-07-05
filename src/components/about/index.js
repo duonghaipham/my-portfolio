@@ -20,7 +20,7 @@ const About = () => {
         {
             'time': 'May 2021',
             'title': 'JavaScript, PHP and MySQL',
-            'detail': 'I seriously realized the important of JavaScript in a web app, used JQuery to make an AJAX request. I learnt basically about software architecture, especially MVC pattern, then I manipulated it into the current project'
+            'detail': 'I seriously realized the importance of JavaScript in a web app, used JQuery to make an AJAX request. I learnt basically about software architecture, especially MVC pattern, then I manipulated it into the current project'
         },
         {
             'time': 'Jul 2021',
